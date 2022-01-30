@@ -1,0 +1,9 @@
+C:\Users\Personal\documents\visual studio 2010\Projects\202010671_T1_PP2\202010671_T1_PP2\bin\Debug\202010671_T1_PP2.exe
+C:\Users\Personal\documents\visual studio 2010\Projects\202010671_T1_PP2\202010671_T1_PP2\bin\Debug\202010671_T1_PP2.pdb
+C:\Users\Personal\documents\visual studio 2010\Projects\202010671_T1_PP2\202010671_T1_PP2\bin\Debug\202010671_T1_PP2.xml
+C:\Users\Personal\documents\visual studio 2010\Projects\202010671_T1_PP2\202010671_T1_PP2\obj\x86\Debug\WindowsApplication1.Form1.resources
+C:\Users\Personal\documents\visual studio 2010\Projects\202010671_T1_PP2\202010671_T1_PP2\obj\x86\Debug\WindowsApplication1.Resources.resources
+C:\Users\Personal\documents\visual studio 2010\Projects\202010671_T1_PP2\202010671_T1_PP2\obj\x86\Debug\202010671_T1_PP2.vbproj.GenerateResource.Cache
+C:\Users\Personal\documents\visual studio 2010\Projects\202010671_T1_PP2\202010671_T1_PP2\obj\x86\Debug\202010671_T1_PP2.exe
+C:\Users\Personal\documents\visual studio 2010\Projects\202010671_T1_PP2\202010671_T1_PP2\obj\x86\Debug\202010671_T1_PP2.xml
+C:\Users\Personal\documents\visual studio 2010\Projects\202010671_T1_PP2\202010671_T1_PP2\obj\x86\Debug\202010671_T1_PP2.pdb
