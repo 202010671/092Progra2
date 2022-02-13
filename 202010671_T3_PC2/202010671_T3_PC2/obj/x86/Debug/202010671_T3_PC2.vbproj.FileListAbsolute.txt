@@ -1,0 +1,10 @@
+C:\Users\Personal\Documents\USAC\T3_PC2\202010671_T3_PC2\202010671_T3_PC2\bin\Debug\202010671_T3_PC2.exe
+C:\Users\Personal\Documents\USAC\T3_PC2\202010671_T3_PC2\202010671_T3_PC2\bin\Debug\202010671_T3_PC2.pdb
+C:\Users\Personal\Documents\USAC\T3_PC2\202010671_T3_PC2\202010671_T3_PC2\bin\Debug\202010671_T3_PC2.xml
+C:\Users\Personal\Documents\USAC\T3_PC2\202010671_T3_PC2\202010671_T3_PC2\obj\x86\Debug\WindowsApplication2.Form1.resources
+C:\Users\Personal\Documents\USAC\T3_PC2\202010671_T3_PC2\202010671_T3_PC2\obj\x86\Debug\WindowsApplication2.Resources.resources
+C:\Users\Personal\Documents\USAC\T3_PC2\202010671_T3_PC2\202010671_T3_PC2\obj\x86\Debug\202010671_T3_PC2.vbproj.GenerateResource.Cache
+C:\Users\Personal\Documents\USAC\T3_PC2\202010671_T3_PC2\202010671_T3_PC2\obj\x86\Debug\202010671_T3_PC2.exe
+C:\Users\Personal\Documents\USAC\T3_PC2\202010671_T3_PC2\202010671_T3_PC2\obj\x86\Debug\202010671_T3_PC2.xml
+C:\Users\Personal\Documents\USAC\T3_PC2\202010671_T3_PC2\202010671_T3_PC2\obj\x86\Debug\202010671_T3_PC2.pdb
+C:\Users\Personal\Documents\USAC\T3_PC2\202010671_T3_PC2\202010671_T3_PC2\obj\x86\Debug\WindowsApplication2.Form2.resources
