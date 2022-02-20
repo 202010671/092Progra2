@@ -1,0 +1,9 @@
+C:\Users\Personal\Documents\USAC\202010671_CORTO1\PTP_PPC2\PTP_PPC2\obj\x86\Debug\WindowsApplication1.Form1.resources
+C:\Users\Personal\Documents\USAC\202010671_CORTO1\PTP_PPC2\PTP_PPC2\obj\x86\Debug\WindowsApplication1.Resources.resources
+C:\Users\Personal\Documents\USAC\202010671_CORTO1\PTP_PPC2\PTP_PPC2\obj\x86\Debug\PTP_PPC2.vbproj.GenerateResource.Cache
+C:\Users\Personal\Documents\USAC\202010671_CORTO1\PTP_PPC2\PTP_PPC2\bin\Debug\PTP_PPC2.exe
+C:\Users\Personal\Documents\USAC\202010671_CORTO1\PTP_PPC2\PTP_PPC2\bin\Debug\PTP_PPC2.pdb
+C:\Users\Personal\Documents\USAC\202010671_CORTO1\PTP_PPC2\PTP_PPC2\bin\Debug\PTP_PPC2.xml
+C:\Users\Personal\Documents\USAC\202010671_CORTO1\PTP_PPC2\PTP_PPC2\obj\x86\Debug\PTP_PPC2.exe
+C:\Users\Personal\Documents\USAC\202010671_CORTO1\PTP_PPC2\PTP_PPC2\obj\x86\Debug\PTP_PPC2.xml
+C:\Users\Personal\Documents\USAC\202010671_CORTO1\PTP_PPC2\PTP_PPC2\obj\x86\Debug\PTP_PPC2.pdb
