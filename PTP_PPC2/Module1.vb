@@ -14,6 +14,7 @@
 
     Public PrecioDeCosto As Double = 0
     Public PrecioDeVenta As Double = 0
+    Public TotalCosto As Double = 0
 
     Public Sub Calcular(ByVal material As String, ByVal tamaño As String, ByVal Cantidad As Double)
 
@@ -52,6 +53,8 @@
         End Select
 
         PrecioDeVenta = PrecioDeCosto + 0.65 * PrecioDeCosto
+
+        TotalCosto = PrecioDeCosto * (Cantidad)
 
     End Sub
 

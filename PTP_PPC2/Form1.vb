@@ -50,6 +50,8 @@
 
         TBCOSTOR.Text = "Q" & PrecioDeCosto
         TBVENTAR.Text = "Q" & PrecioDeVenta
+        TBCTOTAL.Text = "Q" & TotalCosto
+
 
 
     End Sub
@@ -63,10 +65,15 @@
         TBCANTIDAD.Clear()
         TBCOSTOR.Clear()
         TBVENTAR.Clear()
+        TBCTOTAL.Clear()
 
     End Sub
 
     Private Sub GBTAMAÑO_Enter(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles GBTAMAÑO.Enter
+
+    End Sub
+
+    Private Sub TBCANTIDAD_TextChanged(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles TBCANTIDAD.TextChanged
 
     End Sub
 End Class

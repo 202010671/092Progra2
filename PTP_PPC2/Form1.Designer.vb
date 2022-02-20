@@ -42,6 +42,8 @@ Partial Class PRECIOS
         Me.TBCOSTOR = New System.Windows.Forms.TextBox()
         Me.LR2 = New System.Windows.Forms.Label()
         Me.LR1 = New System.Windows.Forms.Label()
+        Me.Label1 = New System.Windows.Forms.Label()
+        Me.TBCTOTAL = New System.Windows.Forms.TextBox()
         Me.GBTAMAÑO.SuspendLayout()
         Me.GroupBox1.SuspendLayout()
         Me.GBCANTIDAD.SuspendLayout()
@@ -66,7 +68,7 @@ Partial Class PRECIOS
         Me.RBLARGE.AutoSize = True
         Me.RBLARGE.Location = New System.Drawing.Point(188, 29)
         Me.RBLARGE.Name = "RBLARGE"
-        Me.RBLARGE.Size = New System.Drawing.Size(59, 21)
+        Me.RBLARGE.Size = New System.Drawing.Size(59, 20)
         Me.RBLARGE.TabIndex = 2
         Me.RBLARGE.Text = "Large"
         Me.RBLARGE.UseVisualStyleBackColor = True
@@ -76,7 +78,7 @@ Partial Class PRECIOS
         Me.RBMEDIUM.AutoSize = True
         Me.RBMEDIUM.Location = New System.Drawing.Point(92, 31)
         Me.RBMEDIUM.Name = "RBMEDIUM"
-        Me.RBMEDIUM.Size = New System.Drawing.Size(74, 21)
+        Me.RBMEDIUM.Size = New System.Drawing.Size(74, 20)
         Me.RBMEDIUM.TabIndex = 1
         Me.RBMEDIUM.Text = "Medium"
         Me.RBMEDIUM.UseVisualStyleBackColor = True
@@ -86,7 +88,7 @@ Partial Class PRECIOS
         Me.RBSMALL.AutoSize = True
         Me.RBSMALL.Location = New System.Drawing.Point(7, 31)
         Me.RBSMALL.Name = "RBSMALL"
-        Me.RBSMALL.Size = New System.Drawing.Size(57, 21)
+        Me.RBSMALL.Size = New System.Drawing.Size(57, 20)
         Me.RBSMALL.TabIndex = 0
         Me.RBSMALL.Text = "Small"
         Me.RBSMALL.UseVisualStyleBackColor = True
@@ -180,7 +182,6 @@ Partial Class PRECIOS
         Me.TBCANTIDAD.Name = "TBCANTIDAD"
         Me.TBCANTIDAD.Size = New System.Drawing.Size(56, 22)
         Me.TBCANTIDAD.TabIndex = 1
-        Me.TBCANTIDAD.Text = "0"
         '
         'LBCANTIDAD
         '
@@ -193,27 +194,29 @@ Partial Class PRECIOS
         '
         'Resultados
         '
+        Me.Resultados.Controls.Add(Me.TBCTOTAL)
+        Me.Resultados.Controls.Add(Me.Label1)
         Me.Resultados.Controls.Add(Me.TBVENTAR)
         Me.Resultados.Controls.Add(Me.TBCOSTOR)
         Me.Resultados.Controls.Add(Me.LR2)
         Me.Resultados.Controls.Add(Me.LR1)
         Me.Resultados.Location = New System.Drawing.Point(20, 219)
         Me.Resultados.Name = "Resultados"
-        Me.Resultados.Size = New System.Drawing.Size(490, 55)
+        Me.Resultados.Size = New System.Drawing.Size(490, 88)
         Me.Resultados.TabIndex = 6
         Me.Resultados.TabStop = False
         Me.Resultados.Text = "Resultados"
         '
         'TBVENTAR
         '
-        Me.TBVENTAR.Location = New System.Drawing.Point(368, 23)
+        Me.TBVENTAR.Location = New System.Drawing.Point(341, 20)
         Me.TBVENTAR.Name = "TBVENTAR"
         Me.TBVENTAR.Size = New System.Drawing.Size(82, 22)
         Me.TBVENTAR.TabIndex = 3
         '
         'TBCOSTOR
         '
-        Me.TBCOSTOR.Location = New System.Drawing.Point(144, 23)
+        Me.TBCOSTOR.Location = New System.Drawing.Point(114, 20)
         Me.TBCOSTOR.Name = "TBCOSTOR"
         Me.TBCOSTOR.Size = New System.Drawing.Size(82, 22)
         Me.TBCOSTOR.TabIndex = 2
@@ -221,7 +224,7 @@ Partial Class PRECIOS
         'LR2
         '
         Me.LR2.AutoSize = True
-        Me.LR2.Location = New System.Drawing.Point(235, 29)
+        Me.LR2.Location = New System.Drawing.Point(235, 23)
         Me.LR2.Name = "LR2"
         Me.LR2.Size = New System.Drawing.Size(105, 16)
         Me.LR2.TabIndex = 1
@@ -230,11 +233,27 @@ Partial Class PRECIOS
         'LR1
         '
         Me.LR1.AutoSize = True
-        Me.LR1.Location = New System.Drawing.Point(13, 29)
+        Me.LR1.Location = New System.Drawing.Point(4, 23)
         Me.LR1.Name = "LR1"
         Me.LR1.Size = New System.Drawing.Size(104, 16)
         Me.LR1.TabIndex = 0
         Me.LR1.Text = "Precio de Costo "
+        '
+        'Label1
+        '
+        Me.Label1.AutoSize = True
+        Me.Label1.Location = New System.Drawing.Point(111, 57)
+        Me.Label1.Name = "Label1"
+        Me.Label1.Size = New System.Drawing.Size(72, 16)
+        Me.Label1.TabIndex = 4
+        Me.Label1.Text = "Costo Total"
+        '
+        'TBCTOTAL
+        '
+        Me.TBCTOTAL.Location = New System.Drawing.Point(200, 51)
+        Me.TBCTOTAL.Name = "TBCTOTAL"
+        Me.TBCTOTAL.Size = New System.Drawing.Size(82, 22)
+        Me.TBCTOTAL.TabIndex = 5
         '
         'PRECIOS
         '
@@ -242,7 +261,7 @@ Partial Class PRECIOS
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.Gainsboro
         Me.BackgroundImage = CType(resources.GetObject("$this.BackgroundImage"), System.Drawing.Image)
-        Me.ClientSize = New System.Drawing.Size(546, 289)
+        Me.ClientSize = New System.Drawing.Size(546, 335)
         Me.Controls.Add(Me.Resultados)
         Me.Controls.Add(Me.GBCANTIDAD)
         Me.Controls.Add(Me.BSALIR)
@@ -283,5 +302,7 @@ Partial Class PRECIOS
     Friend WithEvents TBVENTAR As System.Windows.Forms.TextBox
     Friend WithEvents TBCOSTOR As System.Windows.Forms.TextBox
     Friend WithEvents LR2 As System.Windows.Forms.Label
+    Friend WithEvents TBCTOTAL As System.Windows.Forms.TextBox
+    Friend WithEvents Label1 As System.Windows.Forms.Label
 
 End Class
