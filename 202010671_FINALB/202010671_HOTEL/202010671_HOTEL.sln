@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Basic Express 2010
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "202010671_HOTEL", "202010671_HOTEL\202010671_HOTEL.vbproj", "{3B98E579-2014-4A2F-84E3-AF3B1A89F952}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3B98E579-2014-4A2F-84E3-AF3B1A89F952}.Debug|x86.ActiveCfg = Debug|x86
+		{3B98E579-2014-4A2F-84E3-AF3B1A89F952}.Debug|x86.Build.0 = Debug|x86
+		{3B98E579-2014-4A2F-84E3-AF3B1A89F952}.Release|x86.ActiveCfg = Release|x86
+		{3B98E579-2014-4A2F-84E3-AF3B1A89F952}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

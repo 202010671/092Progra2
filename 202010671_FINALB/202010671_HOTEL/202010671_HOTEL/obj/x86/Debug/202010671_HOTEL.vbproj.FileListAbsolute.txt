@@ -1,0 +1,3 @@
+C:\Users\Personal\Documents\USAC\202010671_FINALB\202010671_HOTEL\202010671_HOTEL\obj\x86\Debug\WindowsApplication1.Form1.resources
+C:\Users\Personal\Documents\USAC\202010671_FINALB\202010671_HOTEL\202010671_HOTEL\obj\x86\Debug\WindowsApplication1.Resources.resources
+C:\Users\Personal\Documents\USAC\202010671_FINALB\202010671_HOTEL\202010671_HOTEL\obj\x86\Debug\202010671_HOTEL.vbproj.GenerateResource.Cache
