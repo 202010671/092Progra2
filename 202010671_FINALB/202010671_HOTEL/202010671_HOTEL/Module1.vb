@@ -4,7 +4,7 @@
 
 
 
-    Public matriz(5, 6)
+    Public matriz(4, 6)
     Public indice = 0
 
     Sub salir()
