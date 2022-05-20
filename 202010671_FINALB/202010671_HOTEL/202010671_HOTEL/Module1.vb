@@ -32,7 +32,7 @@
         Form1.DataGridView1.Rows.Clear()
         fila = 0
         indice = 0
-        While (indice <= 4)
+        While (indice <= 6)
             matriz(indice, 0) = Nothing
             matriz(indice, 1) = Nothing
             matriz(indice, 2) = Nothing
@@ -47,7 +47,7 @@
     Sub Mostrar_matriz()
         Form1.DataGridView1.Rows.Clear()
         indice = 0
-        While (indice <= 4)
+        While (indice <= 6)
             If (matriz(indice, 0) <> Nothing) Then
                 Form1.DataGridView1.Rows.Add(indice + 1, matriz(0, indice), matriz(1, indice), matriz(2, indice), matriz(3, indice), matriz(4, indice))
             Else
@@ -59,7 +59,7 @@
 
     Sub Buscar_For()
         Dim g As Byte
-        For g = 0 To 4
+        For g = 0 To 6
             If (matriz(indice, 0) <> Nothing) Then
                 If (Val(matriz(indice, 0)) = Val(Form1.TBNITCliente.Text)) Then
                     MsgBox("registro encontrado")
